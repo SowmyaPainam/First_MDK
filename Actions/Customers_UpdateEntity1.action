@@ -1,0 +1,19 @@
+{
+	"_Type": "Action.Type.ODataService.UpdateEntity",
+	"ActionResult": {
+		"_Name": "Customers_UpdateEntity1"
+	},
+	"OnFailure": "/First_MDK/Actions/UpdateCustomerEntityFailureMessage1.action",
+	"OnSuccess": "/First_MDK/Actions/CloseModalPage_Complete.action",
+	"Target": {
+		"Service": "/First_MDK/Services/com_sap_edm_sampleservice_v4.service",
+		"EntitySet": "Customers",
+		"ReadLink": "{@odata.readLink}"
+	},
+	"Properties": {
+		"EmailAddress": "#Control:FCEmail/#Value",
+		"FirstName": "#Control:FCFirstName/#Value",
+		"LastName": "#Control:FCLastName/#Value",
+		"PhoneNumber": "#Control:FCPhone/#Value"
+	}
+}

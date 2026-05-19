@@ -1,0 +1,8 @@
+{
+	"_Type": "Action.Type.Navigation",
+	"ActionResult": {
+		"_Name": "NavToCustomers_Edit"
+	},
+	"PageToOpen": "/First_MDK/Pages/Customers_Edit1.page",
+	"ModalPage": true
+}

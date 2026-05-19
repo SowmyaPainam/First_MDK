@@ -1,0 +1,121 @@
+{
+	"Controls": [
+		{
+			"FilterFeedbackBar": {
+				"ShowAllFilters": false,
+				"_Type": "Control.Type.FilterFeedbackBar"
+			},
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable0",
+			"Sections": [
+				{
+					"ObjectHeader": {
+						"Subhead": "{FirstName}",
+						"Footnote": "{EmailAddress}",
+						"Description": "{CustomerID}",
+						"StatusText": "{PhoneNumber}",
+						"DetailImage": "sap-icon://customer",
+						"DetailImageIsCircular": false,
+						"BodyText": "{DateOfBirth}",
+						"HeadlineText": "{LastName}",
+						"StatusPosition": "Stacked",
+						"StatusImagePosition": "Leading",
+						"SubstatusImagePosition": "Leading"
+					},
+					"_Type": "Section.Type.ObjectHeader",
+					"_Name": "SectionObjectHeader0",
+					"Visible": true
+				},
+				{
+					"Separators": {
+						"TopSectionSeparator": false,
+						"BottomSectionSeparator": true,
+						"HeaderSeparator": true,
+						"FooterSeparator": true,
+						"ControlSeparator": true
+					},
+					"KeyAndValues": [
+						{
+							"Value": "{HouseNumber} {Street}",
+							"_Type": "KeyValue.Type.Item",
+							"_Name": "KeyValue0",
+							"KeyName": "Address",
+							"Visible": true
+						},
+						{
+							"Value": "{Address/City}",
+							"_Type": "KeyValue.Type.Item",
+							"_Name": "KeyValue1",
+							"KeyName": "City",
+							"Visible": true
+						},
+						{
+							"Value": "{Gender}",
+							"_Type": "KeyValue.Type.Item",
+							"_Name": "KeyValue4",
+							"KeyName": "Gender",
+							"Visible": true
+						},
+						{
+							"Value": "{PostalCode}",
+							"_Type": "KeyValue.Type.Item",
+							"_Name": "KeyValue2",
+							"KeyName": "PostalCode",
+							"Visible": true
+						},
+						{
+							"Value": "{Country}",
+							"_Type": "KeyValue.Type.Item",
+							"_Name": "KeyValue3",
+							"KeyName": "Country",
+							"Visible": true
+						}
+					],
+					"MaxItemCount": 1,
+					"_Type": "Section.Type.KeyValue",
+					"_Name": "SectionKeyValue0",
+					"Visible": true,
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Layout": {
+						"NumberOfColumns": 2
+					}
+				}
+			]
+		}
+	],
+	"DesignTimeTarget": {
+		"Service": "/First_MDK/Services/com_sap_edm_sampleservice_v4.service",
+		"EntitySet": "Customers"
+	},
+	"_Type": "Page",
+	"_Name": "Customers_Detail",
+	"ActionBar": {
+		"Items": [
+			{
+				"_Type": "Control.Type.ActionBarItem",
+				"_Name": "ActionBarItem0",
+				"Caption": "Item",
+				"SystemItem": "Edit",
+				"Position": "Right",
+				"IsIconCircular": false,
+				"Visible": true,
+				"OnPress": "/First_MDK/Actions/NavToCustomers_Edit1.action"
+			},
+			{
+				"_Type": "Control.Type.ActionBarItem",
+				"_Name": "ActionBarItem1",
+				"Caption": "Item",
+				"SystemItem": "Trash",
+				"Position": "Right",
+				"IsIconCircular": false,
+				"Visible": true,
+				"OnPress": "/First_MDK/Rules/Customers_DeleteConfirmation1.js"
+			}
+		],
+		"_Name": "ActionBar2",
+		"_Type": "Control.Type.ActionBar",
+		"Caption": "Details"
+	}
+}

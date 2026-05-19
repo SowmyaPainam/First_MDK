@@ -1,0 +1,2 @@
+Pass:
+Generated bundle file /home/user/projects/First_MDK/.build/First_MDK/.build/uploadBundle.zip
