@@ -1,0 +1,121 @@
+{
+	"Controls": [
+		{
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable0",
+			"Sections": [
+				{
+					"Visible": true,
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Separators": {
+						"TopSectionSeparator": false,
+						"BottomSectionSeparator": true,
+						"HeaderSeparator": true,
+						"FooterSeparator": true,
+						"ControlSeparator": true
+					},
+					"_Type": "Section.Type.FormCell",
+					"_Name": "SectionFormCell0",
+					"Controls": [
+						{
+							"Value": "EUR",
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "FCCreateCurrencyCode",
+							"RequiredIndicator": false,
+							"IsVisible": true,
+							"Separator": true,
+							"Caption": "Currency Code",
+							"PlaceHolder": "PlaceHolder",
+							"Enabled": true,
+							"IsEditable": true
+						},
+						{
+							"Value": "18.010",
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "FCCreateNetAmount",
+							"RequiredIndicator": false,
+							"IsVisible": true,
+							"Separator": true,
+							"Caption": "Net Amount",
+							"PlaceHolder": "PlaceHolder",
+							"Enabled": true,
+							"IsEditable": true
+						},
+						{
+							"Value": "108.010",
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "FCCreateTaxAmount",
+							"RequiredIndicator": false,
+							"IsVisible": true,
+							"Separator": true,
+							"Caption": "Tax Amount",
+							"PlaceHolder": "PlaceHolder",
+							"Enabled": true,
+							"IsEditable": true
+						},
+						{
+							"Value": "126.02",
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "FCCreateGrossAmount",
+							"RequiredIndicator": false,
+							"IsVisible": true,
+							"Separator": true,
+							"Caption": "Gross Amount",
+							"PlaceHolder": "PlaceHolder",
+							"Enabled": true,
+							"IsEditable": true
+						},
+						{
+							"Value": "Enter Date",
+							"_Type": "Control.Type.FormCell.DatePicker",
+							"_Name": "FCCreatedate",
+							"RequiredIndicator": false,
+							"IsVisible": true,
+							"Separator": true,
+							"Caption": "Creation Date",
+							"IsEditable": true,
+							"Mode": "Datetime"
+						}
+					],
+					"Layout": {
+						"NumberOfColumns": 1
+					}
+				}
+			],
+			"FilterFeedbackBar": {
+				"ShowAllFilters": false,
+				"_Type": "Control.Type.FilterFeedbackBar"
+			}
+		}
+	],
+	"_Type": "Page",
+	"_Name": "SalesOrderHeaders_Create",
+	"ActionBar": {
+		"Items": [
+			{
+				"_Type": "Control.Type.ActionBarItem",
+				"_Name": "ActionBarItem0",
+				"Caption": "Item",
+				"SystemItem": "Cancel",
+				"Position": "Left",
+				"IsIconCircular": false,
+				"Visible": true,
+				"OnPress": "/First_MDK/Actions/CloseModalPage_Cancel.action"
+			},
+			{
+				"_Type": "Control.Type.ActionBarItem",
+				"_Name": "ActionBarItem1",
+				"Caption": "Item",
+				"SystemItem": "Save",
+				"Position": "Right",
+				"IsIconCircular": false,
+				"Visible": true,
+				"OnPress": "/First_MDK/Rules/SaveCustomerAndSalesOrder.js"
+			}
+		],
+		"_Name": "ActionBar0",
+		"_Type": "Control.Type.ActionBar"
+	}
+}

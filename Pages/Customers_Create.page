@@ -77,7 +77,7 @@
 								"PageSize": 50
 							},
 							"PickerPrompt": "Please select one single item",
-							"PlaceHolder": "PlaceHolder",
+							"PlaceHolder": "Select country",
 							"IsSelectedSectionEnabled": false,
 							"AllowDefaultValueIfOneItem": false,
 							"IsEditable": true,
@@ -138,5 +138,22 @@
 		],
 		"_Name": "ActionBar0",
 		"_Type": "Control.Type.ActionBar"
+	},
+	"FioriToolbar": {
+		"_Type": "Control.Type.FioriToolbar",
+		"_Name": "FioriToolbar0",
+		"Items": [
+			{
+				"_Type": "FioriToolbarItem.Type.Button",
+				"_Name": "ToolbarItem0",
+				"Visible": true,
+				"Title": "Create Order",
+				"OnPress": "/First_MDK/Rules/CustomerStep1_Next.js",
+				"Enabled": true,
+				"ButtonType": "Primary",
+				"Semantic": "Tint",
+				"ImagePosition": "Leading"
+			}
+		]
 	}
 }

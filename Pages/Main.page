@@ -40,6 +40,19 @@
 							"Visible": true,
 							"Enabled": true,
 							"OnPress": "/First_MDK/Actions/ListPage.action"
+						},
+						{
+							"_Type": "ButtonTable.Type.Button",
+							"_Name": "ButtonTableTypeButton1",
+							"Title": "Sales Orders",
+							"Alignment": "Center",
+							"ButtonType": "Text",
+							"Semantic": "Tint",
+							"Image": "sap-icon://sales-order",
+							"ImagePosition": "Leading",
+							"FullWidth": false,
+							"Visible": true,
+							"Enabled": true
 						}
 					]
 				}
@@ -48,7 +61,6 @@
 	],
 	"_Type": "Page",
 	"_Name": "Main",
-	"OnLoaded": "/First_MDK/Actions/NavToCustomers_List.action",
 	"ActionBar": {
 		"Items": [
 			{

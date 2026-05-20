@@ -1,0 +1,24 @@
+{
+    "_Type": "Action.Type.ODataService.CreateEntity",
+    "ActionResult": {
+        "_Name": "SalesOrderHeaders_CreateEntity"
+    },
+    "OnFailure": {
+        "Name": "/First_MDK/Actions/GenericMessageBox.action",
+        "Properties": {
+            "Message": "Failed to Create Sales Order record - {#ActionResults:SalesOrderHeaders_CreateEntity/error}",
+            "Title": "Create Sales Order"
+        }
+    },
+    "Target": {
+        "Service": "/First_MDK/Services/com_sap_edm_sampleservice_v4.service",
+        "EntitySet": "SalesOrderHeaders"
+    },
+    "Properties": {
+        "CreatedAt": "#Control:FCCreatedate/#Value",
+        "CurrencyCode": "#Control:FCCreateCurrencyCode/#Value",
+        "GrossAmount": "{#Control:FCCreateGrossAmount/#Value}",
+        "NetAmount": "{#Control:FCCreateNetAmount/#Value}",
+        "TaxAmount": "{#Control:FCCreateTaxAmount/#Value}"
+    }
+}

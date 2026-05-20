@@ -4,7 +4,7 @@
 		"_Name": "Customers_CreateEntity"
 	},
 	"OnFailure": "/First_MDK/Actions/CreateCustomerEntityFailureMessage.action",
-	"OnSuccess": "/First_MDK/Actions/CloseModalPage_Complete.action",
+
 	"Target": {
 		"Service": "/First_MDK/Services/com_sap_edm_sampleservice_v4.service",
 		"EntitySet": "Customers"

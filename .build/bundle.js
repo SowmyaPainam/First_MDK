@@ -67,6 +67,8 @@ let first_mdk_actions_navtocustomers_detail_action = __webpack_require__(/*! ./F
 let first_mdk_actions_navtocustomers_edit1_action = __webpack_require__(/*! ./First_MDK/Actions/NavToCustomers_Edit1.action */ "./build.definitions/First_MDK/Actions/NavToCustomers_Edit1.action")
 let first_mdk_actions_navtocustomers_edit_action = __webpack_require__(/*! ./First_MDK/Actions/NavToCustomers_Edit.action */ "./build.definitions/First_MDK/Actions/NavToCustomers_Edit.action")
 let first_mdk_actions_navtocustomers_list_action = __webpack_require__(/*! ./First_MDK/Actions/NavToCustomers_List.action */ "./build.definitions/First_MDK/Actions/NavToCustomers_List.action")
+let first_mdk_actions_navtosalesorderheaders_action = __webpack_require__(/*! ./First_MDK/Actions/NavToSalesOrderHeaders.action */ "./build.definitions/First_MDK/Actions/NavToSalesOrderHeaders.action")
+let first_mdk_actions_salesorderheaders_createentity_action = __webpack_require__(/*! ./First_MDK/Actions/SalesOrderHeaders_CreateEntity.action */ "./build.definitions/First_MDK/Actions/SalesOrderHeaders_CreateEntity.action")
 let first_mdk_actions_showmessage_action = __webpack_require__(/*! ./First_MDK/Actions/ShowMessage.action */ "./build.definitions/First_MDK/Actions/ShowMessage.action")
 let first_mdk_actions_updatecustomerentityfailuremessage1_action = __webpack_require__(/*! ./First_MDK/Actions/UpdateCustomerEntityFailureMessage1.action */ "./build.definitions/First_MDK/Actions/UpdateCustomerEntityFailureMessage1.action")
 let first_mdk_actions_updatecustomerentityfailuremessage_action = __webpack_require__(/*! ./First_MDK/Actions/UpdateCustomerEntityFailureMessage.action */ "./build.definitions/First_MDK/Actions/UpdateCustomerEntityFailureMessage.action")
@@ -87,6 +89,7 @@ let first_mdk_pages_customers_list_page = __webpack_require__(/*! ./First_MDK/Pa
 let first_mdk_pages_errorarchive_errorarchive_detail_page = __webpack_require__(/*! ./First_MDK/Pages/ErrorArchive/ErrorArchive_Detail.page */ "./build.definitions/First_MDK/Pages/ErrorArchive/ErrorArchive_Detail.page")
 let first_mdk_pages_errorarchive_errorarchive_list_page = __webpack_require__(/*! ./First_MDK/Pages/ErrorArchive/ErrorArchive_List.page */ "./build.definitions/First_MDK/Pages/ErrorArchive/ErrorArchive_List.page")
 let first_mdk_pages_main_page = __webpack_require__(/*! ./First_MDK/Pages/Main.page */ "./build.definitions/First_MDK/Pages/Main.page")
+let first_mdk_pages_salesorderheaders_create_page = __webpack_require__(/*! ./First_MDK/Pages/SalesOrderHeaders_Create.page */ "./build.definitions/First_MDK/Pages/SalesOrderHeaders_Create.page")
 let first_mdk_rules_application_appupdatefailure_js = __webpack_require__(/*! ./First_MDK/Rules/Application/AppUpdateFailure.js */ "./build.definitions/First_MDK/Rules/Application/AppUpdateFailure.js")
 let first_mdk_rules_application_appupdatesuccess_js = __webpack_require__(/*! ./First_MDK/Rules/Application/AppUpdateSuccess.js */ "./build.definitions/First_MDK/Rules/Application/AppUpdateSuccess.js")
 let first_mdk_rules_application_clientismultiusermode_js = __webpack_require__(/*! ./First_MDK/Rules/Application/ClientIsMultiUserMode.js */ "./build.definitions/First_MDK/Rules/Application/ClientIsMultiUserMode.js")
@@ -100,6 +103,7 @@ let first_mdk_rules_countrylist_js = __webpack_require__(/*! ./First_MDK/Rules/C
 let first_mdk_rules_customer_detailimage_js = __webpack_require__(/*! ./First_MDK/Rules/Customer_DetailImage.js */ "./build.definitions/First_MDK/Rules/Customer_DetailImage.js")
 let first_mdk_rules_customers_deleteconfirmation1_js = __webpack_require__(/*! ./First_MDK/Rules/Customers_DeleteConfirmation1.js */ "./build.definitions/First_MDK/Rules/Customers_DeleteConfirmation1.js")
 let first_mdk_rules_customerscreatevalidation_js = __webpack_require__(/*! ./First_MDK/Rules/CustomersCreateValidation.js */ "./build.definitions/First_MDK/Rules/CustomersCreateValidation.js")
+let first_mdk_rules_customerstep1_next_js = __webpack_require__(/*! ./First_MDK/Rules/CustomerStep1_Next.js */ "./build.definitions/First_MDK/Rules/CustomerStep1_Next.js")
 let first_mdk_rules_emailvalidation_js = __webpack_require__(/*! ./First_MDK/Rules/EmailValidation.js */ "./build.definitions/First_MDK/Rules/EmailValidation.js")
 let first_mdk_rules_logging_loglevels_js = __webpack_require__(/*! ./First_MDK/Rules/Logging/LogLevels.js */ "./build.definitions/First_MDK/Rules/Logging/LogLevels.js")
 let first_mdk_rules_logging_settracecategories_js = __webpack_require__(/*! ./First_MDK/Rules/Logging/SetTraceCategories.js */ "./build.definitions/First_MDK/Rules/Logging/SetTraceCategories.js")
@@ -107,6 +111,7 @@ let first_mdk_rules_logging_setuserloglevel_js = __webpack_require__(/*! ./First
 let first_mdk_rules_logging_togglelogging_js = __webpack_require__(/*! ./First_MDK/Rules/Logging/ToggleLogging.js */ "./build.definitions/First_MDK/Rules/Logging/ToggleLogging.js")
 let first_mdk_rules_logging_tracecategories_js = __webpack_require__(/*! ./First_MDK/Rules/Logging/TraceCategories.js */ "./build.definitions/First_MDK/Rules/Logging/TraceCategories.js")
 let first_mdk_rules_logging_userlogsetting_js = __webpack_require__(/*! ./First_MDK/Rules/Logging/UserLogSetting.js */ "./build.definitions/First_MDK/Rules/Logging/UserLogSetting.js")
+let first_mdk_rules_savecustomerandsalesorder_js = __webpack_require__(/*! ./First_MDK/Rules/SaveCustomerAndSalesOrder.js */ "./build.definitions/First_MDK/Rules/SaveCustomerAndSalesOrder.js")
 let first_mdk_rules_service_initialize_js = __webpack_require__(/*! ./First_MDK/Rules/Service/Initialize.js */ "./build.definitions/First_MDK/Rules/Service/Initialize.js")
 let first_mdk_services_com_sap_edm_sampleservice_v4_service = __webpack_require__(/*! ./First_MDK/Services/com_sap_edm_sampleservice_v4.service */ "./build.definitions/First_MDK/Services/com_sap_edm_sampleservice_v4.service")
 let first_mdk_styles_styles_css = __webpack_require__(/*! ./First_MDK/Styles/Styles.css */ "./build.definitions/First_MDK/Styles/Styles.css")
@@ -168,6 +173,8 @@ module.exports = {
 	first_mdk_actions_navtocustomers_edit1_action : first_mdk_actions_navtocustomers_edit1_action,
 	first_mdk_actions_navtocustomers_edit_action : first_mdk_actions_navtocustomers_edit_action,
 	first_mdk_actions_navtocustomers_list_action : first_mdk_actions_navtocustomers_list_action,
+	first_mdk_actions_navtosalesorderheaders_action : first_mdk_actions_navtosalesorderheaders_action,
+	first_mdk_actions_salesorderheaders_createentity_action : first_mdk_actions_salesorderheaders_createentity_action,
 	first_mdk_actions_showmessage_action : first_mdk_actions_showmessage_action,
 	first_mdk_actions_updatecustomerentityfailuremessage1_action : first_mdk_actions_updatecustomerentityfailuremessage1_action,
 	first_mdk_actions_updatecustomerentityfailuremessage_action : first_mdk_actions_updatecustomerentityfailuremessage_action,
@@ -188,6 +195,7 @@ module.exports = {
 	first_mdk_pages_errorarchive_errorarchive_detail_page : first_mdk_pages_errorarchive_errorarchive_detail_page,
 	first_mdk_pages_errorarchive_errorarchive_list_page : first_mdk_pages_errorarchive_errorarchive_list_page,
 	first_mdk_pages_main_page : first_mdk_pages_main_page,
+	first_mdk_pages_salesorderheaders_create_page : first_mdk_pages_salesorderheaders_create_page,
 	first_mdk_rules_application_appupdatefailure_js : first_mdk_rules_application_appupdatefailure_js,
 	first_mdk_rules_application_appupdatesuccess_js : first_mdk_rules_application_appupdatesuccess_js,
 	first_mdk_rules_application_clientismultiusermode_js : first_mdk_rules_application_clientismultiusermode_js,
@@ -201,6 +209,7 @@ module.exports = {
 	first_mdk_rules_customer_detailimage_js : first_mdk_rules_customer_detailimage_js,
 	first_mdk_rules_customers_deleteconfirmation1_js : first_mdk_rules_customers_deleteconfirmation1_js,
 	first_mdk_rules_customerscreatevalidation_js : first_mdk_rules_customerscreatevalidation_js,
+	first_mdk_rules_customerstep1_next_js : first_mdk_rules_customerstep1_next_js,
 	first_mdk_rules_emailvalidation_js : first_mdk_rules_emailvalidation_js,
 	first_mdk_rules_logging_loglevels_js : first_mdk_rules_logging_loglevels_js,
 	first_mdk_rules_logging_settracecategories_js : first_mdk_rules_logging_settracecategories_js,
@@ -208,6 +217,7 @@ module.exports = {
 	first_mdk_rules_logging_togglelogging_js : first_mdk_rules_logging_togglelogging_js,
 	first_mdk_rules_logging_tracecategories_js : first_mdk_rules_logging_tracecategories_js,
 	first_mdk_rules_logging_userlogsetting_js : first_mdk_rules_logging_userlogsetting_js,
+	first_mdk_rules_savecustomerandsalesorder_js : first_mdk_rules_savecustomerandsalesorder_js,
 	first_mdk_rules_service_initialize_js : first_mdk_rules_service_initialize_js,
 	first_mdk_services_com_sap_edm_sampleservice_v4_service : first_mdk_services_com_sap_edm_sampleservice_v4_service,
 	first_mdk_styles_styles_css : first_mdk_styles_styles_css,
@@ -489,20 +499,75 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ CountryList)
 /* harmony export */ });
-function CountryList() {
-  return [{
-    "Name": "India",
-    "ReturnValue": "India"
-  }, {
-    "Name": "USA",
-    "ReturnValue": "USA"
-  }, {
-    "Name": "UK",
-    "ReturnValue": "UK"
-  }, {
-    "Name": "Germany",
-    "ReturnValue": "Germany"
-  }];
+/**
+ * Returns unique country values from Customers entity for ListPicker
+ * @param {IClientAPI} clientAPI
+ */
+function CountryList(clientAPI) {
+  return clientAPI.read('/First_MDK/Services/com_sap_edm_sampleservice_v4.service', 'Customers', [], '$select=Country').then(result => {
+    let uniqueCountries = [];
+    let seen = new Set();
+    for (let i = 0; i < result.length; i++) {
+      let country = result.getItem(i).Country;
+      if (country && country.trim() !== '') {
+        let trimmedCountry = country.trim();
+        let key = trimmedCountry.toLowerCase();
+        if (!seen.has(key)) {
+          seen.add(key);
+          uniqueCountries.push({
+            Name: trimmedCountry,
+            ReturnValue: trimmedCountry
+          });
+        }
+      }
+    }
+    return uniqueCountries;
+  });
+}
+
+/***/ }),
+
+/***/ "./build.definitions/First_MDK/Rules/CustomerStep1_Next.js":
+/*!*****************************************************************!*\
+  !*** ./build.definitions/First_MDK/Rules/CustomerStep1_Next.js ***!
+  \*****************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ CustomerStep1_Next)
+/* harmony export */ });
+function CustomerStep1_Next(clientAPI) {
+  const page = clientAPI.getPageProxy();
+  const firstName = page.evaluateTargetPath('#Control:FCCreateFirstName/#Value');
+  const lastName = page.evaluateTargetPath('#Control:FCCreateLastName/#Value');
+  const phoneNumber = page.evaluateTargetPath('#Control:FCCreatePhone/#Value');
+  const emailAddress = page.evaluateTargetPath('#Control:FCCreateEmail/#Value');
+  const country = page.evaluateTargetPath('#Control:Country/#SelectedValue');
+  const dateOfBirth = page.evaluateTargetPath('#Control:FCCreateDOB/#Value');
+  if (!firstName || !lastName || !phoneNumber || !emailAddress || !dateOfBirth) {
+    return clientAPI.executeAction({
+      "Name": "/First_MDK/Actions/GenericMessageBox.action",
+      "Properties": {
+        "Title": "Validation",
+        "Message": "Please fill all required customer fields."
+      }
+    });
+  }
+
+  // Store temporarily
+  clientAPI.getAppClientData().CustomerData = {
+    FirstName: firstName,
+    LastName: lastName,
+    PhoneNumber: phoneNumber,
+    EmailAddress: emailAddress,
+    Country: country,
+    DateOfBirth: dateOfBirth
+  };
+
+  // Navigate to Sales Order page
+  return clientAPI.executeAction("/First_MDK/Actions/NavToSalesOrderHeaders.action");
 }
 
 /***/ }),
@@ -1017,6 +1082,78 @@ function UserLogSetting(clientAPI) {
 
 /***/ }),
 
+/***/ "./build.definitions/First_MDK/Rules/SaveCustomerAndSalesOrder.js":
+/*!************************************************************************!*\
+  !*** ./build.definitions/First_MDK/Rules/SaveCustomerAndSalesOrder.js ***!
+  \************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ SaveCustomerAndSalesOrder)
+/* harmony export */ });
+function SaveCustomerAndSalesOrder(clientAPI) {
+  const page = clientAPI.getPageProxy();
+  const customerData = clientAPI.getAppClientData().CustomerData;
+  if (!customerData) {
+    return clientAPI.executeAction({
+      "Name": "/First_MDK/Actions/GenericMessageBox.action",
+      "Properties": {
+        "Title": "Error",
+        "Message": "Customer data is missing. Please restart the process."
+      }
+    });
+  }
+  const createdAt = page.evaluateTargetPath('#Control:FCCreatedate/#Value');
+  const currencyCode = page.evaluateTargetPath('#Control:FCCreateCurrencyCode/#Value');
+  const grossAmount = page.evaluateTargetPath('#Control:FCCreateGrossAmount/#Value');
+  const netAmount = page.evaluateTargetPath('#Control:FCCreateNetAmount/#Value');
+  const taxAmount = page.evaluateTargetPath('#Control:FCCreateTaxAmount/#Value');
+  if (!currencyCode || !netAmount) {
+    return clientAPI.executeAction({
+      "Name": "/First_MDK/Actions/GenericMessageBox.action",
+      "Properties": {
+        "Title": "Validation",
+        "Message": "Please complete required sales order fields."
+      }
+    });
+  }
+  return clientAPI.executeAction({
+    "Name": "/First_MDK/Actions/Customers_CreateEntity.action",
+    "Properties": {
+      "Properties": {
+        "FirstName": customerData.FirstName,
+        "LastName": customerData.LastName,
+        "PhoneNumber": customerData.PhoneNumber,
+        "EmailAddress": customerData.EmailAddress,
+        "Country": customerData.Country,
+        "DateOfBirth": customerData.DateOfBirth
+      }
+    }
+  }).then(customerResult => {
+    const createdCustomer = customerResult.data;
+    return clientAPI.executeAction({
+      "Name": "/First_MDK/Actions/SalesOrderHeaders_CreateEntity.action",
+      "Properties": {
+        "Properties": {
+          "CreatedAt": createdAt,
+          "CurrencyCode": currencyCode,
+          "GrossAmount": grossAmount,
+          "NetAmount": netAmount,
+          "TaxAmount": taxAmount,
+          "CustomerID": createdCustomer.CustomerID
+        }
+      }
+    });
+  }).then(() => {
+    delete clientAPI.getAppClientData().CustomerData;
+    return clientAPI.executeAction('/First_MDK/Actions/CloseModalPage_Complete.action');
+  });
+}
+
+/***/ }),
+
 /***/ "./build.definitions/First_MDK/Rules/Service/Initialize.js":
 /*!*****************************************************************!*\
   !*** ./build.definitions/First_MDK/Rules/Service/Initialize.js ***!
@@ -1426,7 +1563,7 @@ module.exports = {"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":true,"_Type
   \*****************************************************************/
 /***/ ((module) => {
 
-module.exports = {"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":false,"_Type":"Control.Type.FilterFeedbackBar"},"_Type":"Control.Type.SectionedTable","_Name":"SectionedTable0","Sections":[{"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":true,"HeaderSeparator":true,"FooterSeparator":true,"ControlSeparator":true},"Controls":[{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FCCreateFirstName","RequiredIndicator":false,"IsVisible":true,"Separator":true,"Caption":"First Name","PlaceHolder":"Enter Value","Enabled":true,"IsEditable":true},{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FCCreateLastName","RequiredIndicator":false,"IsVisible":true,"Separator":true,"Caption":"Last Name","PlaceHolder":"Enter Value","Enabled":true,"IsEditable":true},{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FCCreatePhone","RequiredIndicator":false,"IsVisible":true,"Separator":true,"Caption":"Phone","PlaceHolder":"Enter Value","KeyboardType":"Phone","Enabled":true,"IsEditable":true},{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FCCreateEmail","RequiredIndicator":false,"IsVisible":true,"Separator":true,"Caption":"Email","PlaceHolder":"Enter Value","KeyboardType":"Email","Enabled":true,"IsEditable":true},{"_Type":"Control.Type.FormCell.ListPicker","_Name":"Country","RequiredIndicator":false,"IsVisible":true,"Separator":true,"AllowMultipleSelection":false,"AllowEmptySelection":true,"Caption":"Country","DataPaging":{"ShowLoadingIndicator":false,"PageSize":50},"PickerPrompt":"Please select one single item","PlaceHolder":"PlaceHolder","IsSelectedSectionEnabled":false,"AllowDefaultValueIfOneItem":false,"IsEditable":true,"Search":{"Placeholder":"Select Country"},"PickerItems":"/First_MDK/Rules/CountryList.js"},{"Value":"Enter Date","_Type":"Control.Type.FormCell.DatePicker","_Name":"FCCreateDOB","RequiredIndicator":false,"IsVisible":true,"Separator":true,"Caption":"DOB","IsEditable":true,"Mode":"Datetime"}],"Layout":{"NumberOfColumns":1},"Visible":true,"EmptySection":{"FooterVisible":false},"_Type":"Section.Type.FormCell","_Name":"SectionFormCell0"}]}],"_Type":"Page","_Name":"Customers_Create","ActionBar":{"Items":[{"_Type":"Control.Type.ActionBarItem","_Name":"ActionBarItem1","Caption":"Item","SystemItem":"Cancel","Position":"Left","IsIconCircular":false,"Visible":true,"OnPress":"/First_MDK/Actions/CloseModalPage_Cancel.action"},{"_Type":"Control.Type.ActionBarItem","_Name":"ActionBarItem2","Caption":"Item","SystemItem":"Save","Position":"Right","IsIconCircular":false,"Visible":true,"OnPress":"/First_MDK/Rules/CustomersCreateValidation.js"}],"_Name":"ActionBar0","_Type":"Control.Type.ActionBar"}}
+module.exports = {"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":false,"_Type":"Control.Type.FilterFeedbackBar"},"_Type":"Control.Type.SectionedTable","_Name":"SectionedTable0","Sections":[{"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":true,"HeaderSeparator":true,"FooterSeparator":true,"ControlSeparator":true},"Controls":[{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FCCreateFirstName","RequiredIndicator":false,"IsVisible":true,"Separator":true,"Caption":"First Name","PlaceHolder":"Enter Value","Enabled":true,"IsEditable":true},{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FCCreateLastName","RequiredIndicator":false,"IsVisible":true,"Separator":true,"Caption":"Last Name","PlaceHolder":"Enter Value","Enabled":true,"IsEditable":true},{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FCCreatePhone","RequiredIndicator":false,"IsVisible":true,"Separator":true,"Caption":"Phone","PlaceHolder":"Enter Value","KeyboardType":"Phone","Enabled":true,"IsEditable":true},{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FCCreateEmail","RequiredIndicator":false,"IsVisible":true,"Separator":true,"Caption":"Email","PlaceHolder":"Enter Value","KeyboardType":"Email","Enabled":true,"IsEditable":true},{"_Type":"Control.Type.FormCell.ListPicker","_Name":"Country","RequiredIndicator":false,"IsVisible":true,"Separator":true,"AllowMultipleSelection":false,"AllowEmptySelection":true,"Caption":"Country","DataPaging":{"ShowLoadingIndicator":false,"PageSize":50},"PickerPrompt":"Please select one single item","PlaceHolder":"Select country","IsSelectedSectionEnabled":false,"AllowDefaultValueIfOneItem":false,"IsEditable":true,"Search":{"Placeholder":"Select Country"},"PickerItems":"/First_MDK/Rules/CountryList.js"},{"Value":"Enter Date","_Type":"Control.Type.FormCell.DatePicker","_Name":"FCCreateDOB","RequiredIndicator":false,"IsVisible":true,"Separator":true,"Caption":"DOB","IsEditable":true,"Mode":"Datetime"}],"Layout":{"NumberOfColumns":1},"Visible":true,"EmptySection":{"FooterVisible":false},"_Type":"Section.Type.FormCell","_Name":"SectionFormCell0"}]}],"_Type":"Page","_Name":"Customers_Create","ActionBar":{"Items":[{"_Type":"Control.Type.ActionBarItem","_Name":"ActionBarItem1","Caption":"Item","SystemItem":"Cancel","Position":"Left","IsIconCircular":false,"Visible":true,"OnPress":"/First_MDK/Actions/CloseModalPage_Cancel.action"},{"_Type":"Control.Type.ActionBarItem","_Name":"ActionBarItem2","Caption":"Item","SystemItem":"Save","Position":"Right","IsIconCircular":false,"Visible":true,"OnPress":"/First_MDK/Rules/CustomersCreateValidation.js"}],"_Name":"ActionBar0","_Type":"Control.Type.ActionBar"},"FioriToolbar":{"_Type":"Control.Type.FioriToolbar","_Name":"FioriToolbar0","Items":[{"_Type":"FioriToolbarItem.Type.Button","_Name":"ToolbarItem0","Visible":true,"Title":"Create Order","OnPress":"/First_MDK/Rules/CustomerStep1_Next.js","Enabled":true,"ButtonType":"Primary","Semantic":"Tint","ImagePosition":"Leading"}]}}
 
 /***/ }),
 
@@ -1486,7 +1623,17 @@ module.exports = {"Controls":[{"_Type":"Control.Type.SectionedTable","_Name":"Se
   \*****************************************************/
 /***/ ((module) => {
 
-module.exports = {"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":false,"_Type":"Control.Type.FilterFeedbackBar"},"_Type":"Control.Type.SectionedTable","_Name":"SectionedTable0","Sections":[{"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":true,"HeaderSeparator":true,"FooterSeparator":true,"ControlSeparator":true},"Layout":{"LayoutType":"Vertical","HorizontalAlignment":"Leading"},"_Type":"Section.Type.ButtonTable","_Name":"SectionButtonTable0","Visible":true,"EmptySection":{"FooterVisible":false},"Buttons":[{"_Type":"ButtonTable.Type.Button","_Name":"ButtonTableTypeButton0","Title":"Customers","Alignment":"Center","ButtonType":"Text","Semantic":"Tint","Image":"sap-icon://customer","ImagePosition":"Leading","FullWidth":false,"Visible":true,"Enabled":true,"OnPress":"/First_MDK/Actions/ListPage.action"}]}]}],"_Type":"Page","_Name":"Main","OnLoaded":"/First_MDK/Actions/NavToCustomers_List.action","ActionBar":{"Items":[{"_Type":"Control.Type.ActionBarItem","_Name":"ActionBarItem0","Caption":"User Menu","Icon":"sap-icon://customer","Position":"Right","IsIconCircular":false,"Visible":true,"OnPress":"/First_MDK/Actions/Application/UserMenuPopover.action"}],"_Name":"ActionBar1","_Type":"Control.Type.ActionBar","Caption":"Main","PreferredCaptionSize":"Large"}}
+module.exports = {"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":false,"_Type":"Control.Type.FilterFeedbackBar"},"_Type":"Control.Type.SectionedTable","_Name":"SectionedTable0","Sections":[{"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":true,"HeaderSeparator":true,"FooterSeparator":true,"ControlSeparator":true},"Layout":{"LayoutType":"Vertical","HorizontalAlignment":"Leading"},"_Type":"Section.Type.ButtonTable","_Name":"SectionButtonTable0","Visible":true,"EmptySection":{"FooterVisible":false},"Buttons":[{"_Type":"ButtonTable.Type.Button","_Name":"ButtonTableTypeButton0","Title":"Customers","Alignment":"Center","ButtonType":"Text","Semantic":"Tint","Image":"sap-icon://customer","ImagePosition":"Leading","FullWidth":false,"Visible":true,"Enabled":true,"OnPress":"/First_MDK/Actions/ListPage.action"},{"_Type":"ButtonTable.Type.Button","_Name":"ButtonTableTypeButton1","Title":"Sales Orders","Alignment":"Center","ButtonType":"Text","Semantic":"Tint","Image":"sap-icon://sales-order","ImagePosition":"Leading","FullWidth":false,"Visible":true,"Enabled":true}]}]}],"_Type":"Page","_Name":"Main","ActionBar":{"Items":[{"_Type":"Control.Type.ActionBarItem","_Name":"ActionBarItem0","Caption":"User Menu","Icon":"sap-icon://customer","Position":"Right","IsIconCircular":false,"Visible":true,"OnPress":"/First_MDK/Actions/Application/UserMenuPopover.action"}],"_Name":"ActionBar1","_Type":"Control.Type.ActionBar","Caption":"Main","PreferredCaptionSize":"Large"}}
+
+/***/ }),
+
+/***/ "./build.definitions/First_MDK/Pages/SalesOrderHeaders_Create.page":
+/*!*************************************************************************!*\
+  !*** ./build.definitions/First_MDK/Pages/SalesOrderHeaders_Create.page ***!
+  \*************************************************************************/
+/***/ ((module) => {
+
+module.exports = {"Controls":[{"_Type":"Control.Type.SectionedTable","_Name":"SectionedTable0","Sections":[{"Visible":true,"EmptySection":{"FooterVisible":false},"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":true,"HeaderSeparator":true,"FooterSeparator":true,"ControlSeparator":true},"_Type":"Section.Type.FormCell","_Name":"SectionFormCell0","Controls":[{"Value":"EUR","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FCCreateCurrencyCode","RequiredIndicator":false,"IsVisible":true,"Separator":true,"Caption":"Currency Code","PlaceHolder":"PlaceHolder","Enabled":true,"IsEditable":true},{"Value":"18.010","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FCCreateNetAmount","RequiredIndicator":false,"IsVisible":true,"Separator":true,"Caption":"Net Amount","PlaceHolder":"PlaceHolder","Enabled":true,"IsEditable":true},{"Value":"108.010","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FCCreateTaxAmount","RequiredIndicator":false,"IsVisible":true,"Separator":true,"Caption":"Tax Amount","PlaceHolder":"PlaceHolder","Enabled":true,"IsEditable":true},{"Value":"126.02","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FCCreateGrossAmount","RequiredIndicator":false,"IsVisible":true,"Separator":true,"Caption":"Gross Amount","PlaceHolder":"PlaceHolder","Enabled":true,"IsEditable":true},{"Value":"Enter Date","_Type":"Control.Type.FormCell.DatePicker","_Name":"FCCreatedate","RequiredIndicator":false,"IsVisible":true,"Separator":true,"Caption":"Creation Date","IsEditable":true,"Mode":"Datetime"}],"Layout":{"NumberOfColumns":1}}],"FilterFeedbackBar":{"ShowAllFilters":false,"_Type":"Control.Type.FilterFeedbackBar"}}],"_Type":"Page","_Name":"SalesOrderHeaders_Create","ActionBar":{"Items":[{"_Type":"Control.Type.ActionBarItem","_Name":"ActionBarItem0","Caption":"Item","SystemItem":"Cancel","Position":"Left","IsIconCircular":false,"Visible":true,"OnPress":"/First_MDK/Actions/CloseModalPage_Cancel.action"},{"_Type":"Control.Type.ActionBarItem","_Name":"ActionBarItem1","Caption":"Item","SystemItem":"Save","Position":"Right","IsIconCircular":false,"Visible":true,"OnPress":"/First_MDK/Rules/SaveCustomerAndSalesOrder.js"}],"_Name":"ActionBar0","_Type":"Control.Type.ActionBar"}}
 
 /***/ }),
 
@@ -1666,7 +1813,7 @@ module.exports = {"_Type":"Action.Type.Message","ActionResult":{"_Name":"CreateC
   \***************************************************************************/
 /***/ ((module) => {
 
-module.exports = {"_Type":"Action.Type.ODataService.CreateEntity","ActionResult":{"_Name":"Customers_CreateEntity"},"OnFailure":"/First_MDK/Actions/CreateCustomerEntityFailureMessage.action","OnSuccess":"/First_MDK/Actions/CloseModalPage_Complete.action","Target":{"Service":"/First_MDK/Services/com_sap_edm_sampleservice_v4.service","EntitySet":"Customers"},"Properties":{"DateOfBirth":"#Control:FCCreateDOB/#Value","EmailAddress":"#Control:FCCreateEmail/#Value","FirstName":"#Control:FCCreateFirstName/#Value","LastName":"#Control:FCCreateLastName/#Value","PhoneNumber":"#Control:FCCreatePhone/#Value","Country":"#Control:Country/#SelectedValue"}}
+module.exports = {"_Type":"Action.Type.ODataService.CreateEntity","ActionResult":{"_Name":"Customers_CreateEntity"},"OnFailure":"/First_MDK/Actions/CreateCustomerEntityFailureMessage.action","Target":{"Service":"/First_MDK/Services/com_sap_edm_sampleservice_v4.service","EntitySet":"Customers"},"Properties":{"DateOfBirth":"#Control:FCCreateDOB/#Value","EmailAddress":"#Control:FCCreateEmail/#Value","FirstName":"#Control:FCCreateFirstName/#Value","LastName":"#Control:FCCreateLastName/#Value","PhoneNumber":"#Control:FCCreatePhone/#Value","Country":"#Control:Country/#SelectedValue"}}
 
 /***/ }),
 
@@ -1887,6 +2034,26 @@ module.exports = {"_Type":"Action.Type.Navigation","ActionResult":{"_Name":"NavT
 /***/ ((module) => {
 
 module.exports = {"_Type":"Action.Type.Navigation","ActionResult":{"_Name":"NavToCustomers_List"},"PageToOpen":"/First_MDK/Pages/Customers_List.page"}
+
+/***/ }),
+
+/***/ "./build.definitions/First_MDK/Actions/NavToSalesOrderHeaders.action":
+/*!***************************************************************************!*\
+  !*** ./build.definitions/First_MDK/Actions/NavToSalesOrderHeaders.action ***!
+  \***************************************************************************/
+/***/ ((module) => {
+
+module.exports = {"_Type":"Action.Type.Navigation","ActionResult":{"_Name":"NavToSalesOrderHeaders"},"PageToOpen":"/First_MDK/Pages/SalesOrderHeaders_Create.page","ModalPage":true}
+
+/***/ }),
+
+/***/ "./build.definitions/First_MDK/Actions/SalesOrderHeaders_CreateEntity.action":
+/*!***********************************************************************************!*\
+  !*** ./build.definitions/First_MDK/Actions/SalesOrderHeaders_CreateEntity.action ***!
+  \***********************************************************************************/
+/***/ ((module) => {
+
+module.exports = {"_Type":"Action.Type.ODataService.CreateEntity","ActionResult":{"_Name":"SalesOrderHeaders_CreateEntity"},"OnFailure":{"Name":"/First_MDK/Actions/GenericMessageBox.action","Properties":{"Message":"Failed to Create Sales Order record - {#ActionResults:SalesOrderHeaders_CreateEntity/error}","Title":"Create Sales Order"}},"Target":{"Service":"/First_MDK/Services/com_sap_edm_sampleservice_v4.service","EntitySet":"SalesOrderHeaders"},"Properties":{"CreatedAt":"#Control:FCCreatedate/#Value","CurrencyCode":"#Control:FCCreateCurrencyCode/#Value","GrossAmount":"{#Control:FCCreateGrossAmount/#Value}","NetAmount":"{#Control:FCCreateNetAmount/#Value}","TaxAmount":"{#Control:FCCreateTaxAmount/#Value}"}}
 
 /***/ }),
 
